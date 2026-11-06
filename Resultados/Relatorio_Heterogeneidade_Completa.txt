@@ -1,0 +1,59 @@
+═══════════════════════════════════════════════════════════════════
+   ANÁLISE DE HETEROGENEIDADE - MÚLTIPLAS VARIÁVEIS
+═══════════════════════════════════════════════════════════════════
+
+Data: 09/06/2026 
+
+VARIÁVEIS TESTADAS:
+  1. IFDM Geral
+  2. log(PIB per capita)
+  3. log(VA Agropecuária)
+  4. log(VA Indústria)
+  5. log(VA Serviços)
+  6. Part. Agropecuária (%)
+
+═══════════════════════════════════════════════════════════════════
+RESULTADOS POR IG ESPECÍFICA
+═══════════════════════════════════════════════════════════════════
+
+
+Planalto de Vitória da Conquista:
+---------------------------------
+  IFDM Geral: ATT = 0.0297 (p = 0.000) ***
+  log(PIB per capita): ATT = 0.0410 (p = 0.151) 
+  log(VA Agropecuária): ATT = -0.1242 (p = 0.002) ***
+  log(VA Indústria): ATT = -0.0088 (p = 0.875) 
+  log(VA Serviços): ATT = -0.0333 (p = 0.264) 
+  Part. Agropecuária (%): ATT = -1.0608 (p = 0.182) 
+
+Vale do Café:
+-------------
+  IFDM Geral: ATT = -0.0321 (p = 0.000) ***
+  log(PIB per capita): ATT = -0.0644 (p = 0.215) 
+  log(VA Agropecuária): ATT = 0.1054 (p = 0.515) 
+  log(VA Indústria): ATT = -0.0976 (p = 0.507) 
+  log(VA Serviços): ATT = -0.0382 (p = 0.431) 
+  Part. Agropecuária (%): ATT = 0.6677 (p = 0.238) 
+
+Noroeste Fluminense:
+--------------------
+  IFDM Geral: ATT = -0.0014 (p = 0.876) 
+  log(PIB per capita): ATT = -0.0437 (p = 0.073) *
+  log(VA Agropecuária): ATT = -0.0463 (p = 0.253) 
+  log(VA Indústria): ATT = -0.0936 (p = 0.181) 
+  log(VA Serviços): ATT = -0.0067 (p = 0.831) 
+  Part. Agropecuária (%): ATT = 0.1925 (p = 0.582) 
+
+
+═══════════════════════════════════════════════════════════════════
+RESUMO DE SIGNIFICÂNCIA
+═══════════════════════════════════════════════════════════════════
+
+# A tibble: 3 × 4
+  IG                               Total_vars Sig_5pct Sig_10pct
+  <chr>                                 <int>    <int>     <int>
+1 Noroeste Fluminense                       6        0         1
+2 Planalto de Vitória da Conquista          6        2         2
+3 Vale do Café                              6        1         1
+
+═══════════════════════════════════════════════════════════════════

@@ -1,0 +1,43 @@
+# Artefatos de compilação LaTeX
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+
+# Dados brutos de grande volume
+Dados.rar
+Dados/ComexStat_Raw/
+
+# Scripts temporários de exploração
+Scripts/temp_*.R
+Scripts/.Rhistory
+.Rhistory
+
+# Arquivos internos do Claude Code
+.claude/
+
+# Notas internas de sessão e rascunhos de trabalho
+SESSAO_*.md
+COMECE_AQUI*.md
+PLANO_*.md
+Email_*.md
+LEIA_PRIMEIRO.txt
+INDICE_COMPLETO_ARQUIVOS.md
+CHECKLIST_ARTIGO.md
+RESUMO_PARA_PROFESSOR.md
+RESUMO_EXECUTIVO*.md
+RESUMO_FINAL_COMPLETO_09_JUN.md
+CORRECOES_09_JUN_2026.md
+SUMÁRIO_DADOS_ENCONTRADOS.md
+APRESENTACAO_HETEROGENEIDADE.md
+
+# Instruções internas do Claude Code
+CLAUDE.md
+
+# Outputs de debug
+Resultados/DEBUG_*.csv
+
+# Workspace do VS Code
+*.code-workspace

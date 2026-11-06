@@ -1,0 +1,33 @@
+═══════════════════════════════════════════════════════════
+   RELATÓRIO PSM - INDICAÇÕES GEOGRÁFICAS DE CAFÉ
+═══════════════════════════════════════════════════════════
+
+Data: 07/06/2026 
+
+AMOSTRA:
+  Total de municípios: 5550 
+  Municípios com IG Café: 87 
+  Municípios pareados: 320 
+
+ESPECIFICAÇÃO DO MATCHING:
+  Método: Nearest Neighbor
+  Ratio: 3:1 (com reposição)
+  Caliper: 0.01
+  Distance: Logit
+
+RESULTADOS (ATT):
+
+      Variavel           ATT           SE   IC_Inferior  IC_Superior   p_value
+          IFDM  9.409270e-03 1.678099e-02 -2.348148e-02 4.230002e-02 0.5753901
+  IFDM_Emprego  2.216780e-02 2.690795e-02 -3.057178e-02 7.490739e-02 0.4106488
+ IFDM_Educacao  6.459203e-03 1.797395e-02 -2.876974e-02 4.168815e-02 0.7195608
+    IFDM_Saude -4.030790e-04 1.294885e-02 -2.578282e-02 2.497666e-02 0.9751865
+ PIB_Percapita -1.118947e+03 3.302488e+03 -7.591823e+03 5.353929e+03 0.7349694
+ Significancia
+              
+              
+              
+              
+              
+
+═══════════════════════════════════════════════════════════
